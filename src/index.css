@@ -13,6 +13,18 @@
   height: calc(100% - 5px);
 }
 
+@keyframes horizontal-wiggle {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  80% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+.animate-horizontal-wiggle {
+  animation: horizontal-wiggle 3s ease-in-out infinite;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
