@@ -225,7 +225,7 @@ export const Hero = () => {
           </span>
 
           <img
-            src="/public/images/crop7.gif"
+            src="/images/crop7.gif"
             alt="Developer at work"
             className={`w-full max-w-xs md:max-w-md lg:max-w-lg h-auto object-cover object-center ${styles.croppedImage}`}
           />
