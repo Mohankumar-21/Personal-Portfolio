@@ -116,7 +116,7 @@ export const Contact = () => {
         </div>
         <div className="text-center mt-12">
           <p className="text-blue-100">
-            © 2024 MohanKumar G. Built with React & Tailwind CSS
+            © 2026 MohanKumar G. Built with React & Tailwind CSS
           </p>
         </div>
       </div>
